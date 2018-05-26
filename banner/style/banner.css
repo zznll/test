@@ -1,0 +1,54 @@
+body{overflow-x:hidden;}
+body,h1,h3,h4,h2,h5,h6,ul,ol,p,fieldset,dd,dl,input,textarea,option,hr,td{
+    margin:0;
+    padding:0; 
+    font-family: Microsoft YaHei,Tahoma,Arial,Helvetica,sans-serif;
+}
+h1,h3,h4,h2,h5,h6,b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none; color:inherit;}
+a,input{outline:none;}
+body{font:12px/1em "微软雅黑"; color:#000;}
+.clear:after{content:"."; display:block; clear:both;height:0; visibility:hidden;}
+.clear{zoom:1;}
+.clamp1{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.banner{
+    width: 100%;
+    height: 524px;
+    position: relative;
+    overflow: hidden;
+}
+.lbtn{
+    width: 25px;
+    height: 40px;
+    background: url(../images/bleft.png) no-repeat;
+    position: absolute;
+    left: 15%;
+    top: 210px;
+    z-index: 66;
+}
+.rbtn{
+    width: 25px;
+    height: 40px;
+    background: url(../images/rbtn.png) no-repeat;
+    position: absolute;
+    right: 15%;
+    top: 210px;
+    z-index: 66;
+}
+.bannerul{
+    position: relative;
+    left: 0;
+}
+.bannerul>li{
+   position: absolute;
+}
+.zindex{
+    z-index: 2;
+}
